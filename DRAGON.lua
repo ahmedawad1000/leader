@@ -302,8 +302,6 @@ end
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1751198705) then  
 var = 'مطور السورس'
-if tonumber(user_id) == tonumber(1208165035) then  
-var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(4) then
 var = 'مطور السورس'  
 elseif tonumber(user_id) == tonumber(44) then
@@ -2643,13 +2641,13 @@ local TWEET_Msg = {
 " ما السيء في هذه الحياة ؟ ", 
 "أجمل شيء حصل معك خلال هذا الاسبوع ؟ ", 
 "سؤال ينرفزك ؟ ", 
-" هل يعجبك سورس القائد؟ ", 
+" هل يعجبك سورس سليندر ؟؟ ", 
 " اكثر ممثل تحبه ؟ ", 
 "قد تخيلت شي في بالك وصار ؟ ", 
 "شيء عندك اهم من الناس ؟ ", 
 "تفضّل النقاش الطويل او تحب الاختصار ؟ ", 
 "وش أخر شي ضيعته؟ ", 
-"بتحب اسلام ولا لأ؟", 
+"اي رايك في سورس سليندر ؟ ", 
 "كم مره حبيت؟ ", 
 " اكثر المتابعين عندك باي برنامج؟", 
 " نسبة النعاس عندك حاليًا؟", 
@@ -3678,7 +3676,7 @@ send(msg.chat_id_, msg.id_, " ※ لا يمكنك حظر مطور السورس\n
 return false 
 end
 if result.sender_user_id_ == tonumber(1208165035) then
-send(msg.chat_id_, msg.id_, " ※ لا يمكنك حظر المبرمج ماديسون \n")
+send(msg.chat_id_, msg.id_, " ※ لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(bot_id) then  
@@ -3782,7 +3780,7 @@ send(msg.chat_id_, msg.id_, " ※ لا يمكنك كتم المطور الاسا
 return false 
 end
 if result.sender_user_id_ == tonumber(1208165035) then
-send(msg.chat_id_, msg.id_, " ※ لا يمكنك كتم المبرمج ماديسون\n")
+send(msg.chat_id_, msg.id_, " ※ لا يمكنك كتم مبرمج السورس\n")
 return false 
 end
 if result.sender_user_id_ == tonumber(44) then
